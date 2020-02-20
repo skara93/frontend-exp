@@ -1,16 +1,34 @@
 body {
-    background: url("https://downloader.disk.yandex.ru/preview/b6ecb827ef94fd9faca24d38dca548a089733f8e663e125a184f66d9201c5b0a/5e4f0d2a/tCBUW7lUzbTwC8w1mtPGJbZHiHKhHhgskeuM1l6AO8qo0nFNT1Pwl_jmHOdxdMR71h5-SupezYR9vOIil90FTw==?uid=0&filename=0839.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&owner_uid=139220661&size=2048x2048") no-repeat;
-    background-size: 100%;
+    background: rgba(255,255,0,0.1);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPt7KpKjM_qt9agiYdwSqA3vZ9Ts-FCxA2GzGlpN-CyfRBLyHA');
     display: block;
     width: 100vw;
     height: 100vh;
     position: absolute;
+    
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+img {
+    margin: auto;
+    position: relative;
+    display: block;
 }
 
 h1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
     font-size: 75px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+p {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 70px;
 }
